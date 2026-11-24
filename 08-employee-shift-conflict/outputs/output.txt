@@ -1,0 +1,6 @@
+=== EMPLOYEE SHIFT CONFLICT REPORT ===
+CONFLICT: E101 (Ravi) on Mon -> 9:00-13:00 overlaps 12:00-16:00
+CONFLICT: E103 (Kiran) on Tue -> 10:00-15:00 overlaps 14:00-18:00
+
+Total Conflicts Found      : 2
+Conflicted Employee IDs    : ('E101', 'E103')

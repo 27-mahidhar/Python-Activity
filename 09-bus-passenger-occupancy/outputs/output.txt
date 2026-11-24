@@ -1,0 +1,15 @@
+=== BUS PASSENGER OCCUPANCY SIMULATION ===
+Bus Max Capacity: 45
+
+Stop Name           Off   On  Occupancy  Status
+-------------------------------------------------------
+Central Station       0   22         22  Normal
+City Market           5   18         35  Normal
+Tech Park             8   25         52  OVERLOAD (+7)
+University Gate      20   12         44  Normal
+Main Square          15    4         33  Normal
+Terminal             33    0          0  Normal
+-------------------------------------------------------
+Peak Occupancy  : 52 passengers at Tech Park
+Final Onboard   : 0 passengers
+Overloaded Stops: 1

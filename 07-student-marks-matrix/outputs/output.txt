@@ -1,0 +1,18 @@
+=== STUDENT-WISE PERFORMANCE ===
+Student        Total   Average   Grade
+--------------------------------------
+Ananya           333     83.25       A
+Vikram           255     63.75       B
+Divya            343     85.75      A+
+Karthik          229     57.25       C
+Sneha            298     74.50       B
+
+Top Performer: Divya (343/400)
+
+=== SUBJECT-WISE ANALYSIS ===
+  Math      : Avg = 79.20% [Satisfactory]
+  Python    : Avg = 79.00% [Satisfactory]
+  Physics   : Avg = 55.60% [LOW AVG (<60)]
+  English   : Avg = 77.80% [Satisfactory]
+
+Subjects needing attention: Physics

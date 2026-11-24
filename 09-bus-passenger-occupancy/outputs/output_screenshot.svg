@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="454" viewBox="0 0 760 454">
+<rect width="760" height="454" rx="10" fill="#0F172A"/>
+<rect width="760" height="40" rx="10" fill="#1E293B"/>
+<rect y="30" width="760" height="10" fill="#1E293B"/>
+<circle cx="22" cy="20" r="6" fill="#EF4444"/>
+<circle cx="42" cy="20" r="6" fill="#F59E0B"/>
+<circle cx="62" cy="20" r="6" fill="#10B981"/>
+<text x="88" y="25" font-family="Menlo, Monaco, monospace" font-size="13" font-weight="bold" fill="#E2E8F0">Terminal — Bus Passenger Occupancy Simulation (bus_occupancy.py)</text>
+<text x="24" y="75" font-family="Menlo, Monaco, monospace" font-size="14" fill="#38BDF8" xml:space="preserve">$ python3 bus_occupancy.py</text>
+<text x="24" y="97" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve"></text>
+<text x="24" y="119" font-family="Menlo, Monaco, monospace" font-size="14" fill="#FBBF24" xml:space="preserve">=== BUS PASSENGER OCCUPANCY SIMULATION ===</text>
+<text x="24" y="141" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Bus Max Capacity: 45</text>
+<text x="24" y="163" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve"></text>
+<text x="24" y="185" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Stop Name           Off   On  Occupancy  Status</text>
+<text x="24" y="207" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">-------------------------------------------------------</text>
+<text x="24" y="229" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Central Station       0   22         22  Normal</text>
+<text x="24" y="251" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">City Market           5   18         35  Normal</text>
+<text x="24" y="273" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Tech Park             8   25         52  OVERLOAD (+7)</text>
+<text x="24" y="295" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">University Gate      20   12         44  Normal</text>
+<text x="24" y="317" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Main Square          15    4         33  Normal</text>
+<text x="24" y="339" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Terminal             33    0          0  Normal</text>
+<text x="24" y="361" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">-------------------------------------------------------</text>
+<text x="24" y="383" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Peak Occupancy  : 52 passengers at Tech Park</text>
+<text x="24" y="405" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Final Onboard   : 0 passengers</text>
+<text x="24" y="427" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Overloaded Stops: 1</text>
+</svg>

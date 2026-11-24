@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="256" viewBox="0 0 760 256">
+<rect width="760" height="256" rx="10" fill="#0F172A"/>
+<rect width="760" height="40" rx="10" fill="#1E293B"/>
+<rect y="30" width="760" height="10" fill="#1E293B"/>
+<circle cx="22" cy="20" r="6" fill="#EF4444"/>
+<circle cx="42" cy="20" r="6" fill="#F59E0B"/>
+<circle cx="62" cy="20" r="6" fill="#10B981"/>
+<text x="88" y="25" font-family="Menlo, Monaco, monospace" font-size="13" font-weight="bold" fill="#E2E8F0">Terminal — Tuple-Based Employee Shift Conflict Detection (shift_conflict.py)</text>
+<text x="24" y="75" font-family="Menlo, Monaco, monospace" font-size="14" fill="#38BDF8" xml:space="preserve">$ python3 shift_conflict.py</text>
+<text x="24" y="97" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve"></text>
+<text x="24" y="119" font-family="Menlo, Monaco, monospace" font-size="14" fill="#FBBF24" xml:space="preserve">=== EMPLOYEE SHIFT CONFLICT REPORT ===</text>
+<text x="24" y="141" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">CONFLICT: E101 (Ravi) on Mon -&gt; 9:00-13:00 overlaps 12:00-16:00</text>
+<text x="24" y="163" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">CONFLICT: E103 (Kiran) on Tue -&gt; 10:00-15:00 overlaps 14:00-18:00</text>
+<text x="24" y="185" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve"></text>
+<text x="24" y="207" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Total Conflicts Found      : 2</text>
+<text x="24" y="229" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Conflicted Employee IDs    : (&#x27;E101&#x27;, &#x27;E103&#x27;)</text>
+</svg>

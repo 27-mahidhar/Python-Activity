@@ -1,0 +1,17 @@
+=== ATM TRANSACTION SIMULATION LOG ===
+Initial Balance: Rs. 10000.00
+
+Txn 1 (D, 2500): ACCEPTED - New Balance: Rs. 12500.00
+Txn 2 (W, 3000): ACCEPTED - New Balance: Rs. 9500.00
+Txn 3 (W, 5500): REJECTED - Exceeds single limit (Rs. 5000).
+Txn 4 (W, 4550): REJECTED - Must be a multiple of Rs. 100.
+Txn 5 (W, 4500): ACCEPTED - New Balance: Rs. 5000.00
+Txn 6 (W, 1000): REJECTED - Exceeds daily limit (Rs. 8000).
+Txn 7 (D, -200): REJECTED - Amount must be positive.
+Txn 8 (X, 500): REJECTED - Unknown transaction type.
+
+=== SUMMARY ===
+Accepted Transactions: 3
+Rejected Transactions: 5
+Total Withdrawn Today: Rs. 7500.00
+Closing Balance      : Rs. 5000.00

@@ -1,0 +1,17 @@
+=== RUN-LENGTH ENCODING (RLE) ANALYSIS ===
+
+Original : AAAAABBBCCDAA (Length: 13)
+Encoded  : A5B3C2D1A2 (Length: 10)
+Result   : BENEFICIAL (Saved 3 chars, 23.1% reduction)
+
+Original : ABCDEF (Length: 6)
+Encoded  : A1B1C1D1E1F1 (Length: 12)
+Result   : NOT BENEFICIAL (Use original 'ABCDEF')
+
+Original : WWWWWWWWWWWWBWWWWWWWWWWWWBBB (Length: 28)
+Encoded  : W12B1W12B3 (Length: 10)
+Result   : BENEFICIAL (Saved 18 chars, 64.3% reduction)
+
+Original : AABB (Length: 4)
+Encoded  : A2B2 (Length: 4)
+Result   : NOT BENEFICIAL (Use original 'AABB')

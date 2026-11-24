@@ -1,0 +1,9 @@
+=== RAILWAY FARE & RESERVATION SUMMARY ===
+Name       Age  Dist  Class     Status   Net Fare    Refund
+-----------------------------------------------------------
+Aarav       28   350    3AC  Confirmed    1028.00      0.00
+Meera       64   350     SL  Confirmed     304.00      0.00
+Rohan        9   250    2AC  Confirmed     555.00      0.00
+Kavya       35   480    3AC  Cancelled    1314.00    940.50
+-----------------------------------------------------------
+Total Net Revenue Retained: Rs. 2260.50

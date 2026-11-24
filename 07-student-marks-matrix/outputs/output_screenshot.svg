@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="520" viewBox="0 0 760 520">
+<rect width="760" height="520" rx="10" fill="#0F172A"/>
+<rect width="760" height="40" rx="10" fill="#1E293B"/>
+<rect y="30" width="760" height="10" fill="#1E293B"/>
+<circle cx="22" cy="20" r="6" fill="#EF4444"/>
+<circle cx="42" cy="20" r="6" fill="#F59E0B"/>
+<circle cx="62" cy="20" r="6" fill="#10B981"/>
+<text x="88" y="25" font-family="Menlo, Monaco, monospace" font-size="13" font-weight="bold" fill="#E2E8F0">Terminal — Student Marks Matrix Analysis (marks_matrix.py)</text>
+<text x="24" y="75" font-family="Menlo, Monaco, monospace" font-size="14" fill="#38BDF8" xml:space="preserve">$ python3 marks_matrix.py</text>
+<text x="24" y="97" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve"></text>
+<text x="24" y="119" font-family="Menlo, Monaco, monospace" font-size="14" fill="#FBBF24" xml:space="preserve">=== STUDENT-WISE PERFORMANCE ===</text>
+<text x="24" y="141" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Student        Total   Average   Grade</text>
+<text x="24" y="163" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">--------------------------------------</text>
+<text x="24" y="185" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Ananya           333     83.25       A</text>
+<text x="24" y="207" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Vikram           255     63.75       B</text>
+<text x="24" y="229" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Divya            343     85.75      A+</text>
+<text x="24" y="251" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Karthik          229     57.25       C</text>
+<text x="24" y="273" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Sneha            298     74.50       B</text>
+<text x="24" y="295" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve"></text>
+<text x="24" y="317" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Top Performer: Divya (343/400)</text>
+<text x="24" y="339" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve"></text>
+<text x="24" y="361" font-family="Menlo, Monaco, monospace" font-size="14" fill="#FBBF24" xml:space="preserve">=== SUBJECT-WISE ANALYSIS ===</text>
+<text x="24" y="383" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">  Math      : Avg = 79.20% [Satisfactory]</text>
+<text x="24" y="405" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">  Python    : Avg = 79.00% [Satisfactory]</text>
+<text x="24" y="427" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">  Physics   : Avg = 55.60% [LOW AVG (&lt;60)]</text>
+<text x="24" y="449" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">  English   : Avg = 77.80% [Satisfactory]</text>
+<text x="24" y="471" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve"></text>
+<text x="24" y="493" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Subjects needing attention: Physics</text>
+</svg>

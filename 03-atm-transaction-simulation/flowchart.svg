@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1125" viewBox="0 0 640 1125">
+<rect width="640" height="1125" fill="#ffffff"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#4B5563"/></marker></defs>
+<text x="320" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1E3A5F">Flowchart: ATM Transaction Sequence Simulation</text>
+<rect x="200" y="89" width="240" height="52" rx="26" fill="#1E3A5F"/>
+<text x="320" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Start (Balance = 10,000)</text>
+<line x1="320" y1="146" x2="320" y2="198" stroke="#4B5563" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="170,258 450,258 470,202 190,202" fill="#E8F1FA" stroke="#2563EB" stroke-width="2"/>
+<text x="320" y="226" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2937">Read transaction</text>
+<text x="320" y="244" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2937">(type, amount)</text>
+<line x1="320" y1="261" x2="320" y2="305" stroke="#4B5563" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="320,309 475,345 320,381 165,345" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+<text x="320" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#78350F">Amount &gt; 0?</text>
+<line x1="320" y1="384" x2="320" y2="420" stroke="#4B5563" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="320,424 475,460 320,496 165,460" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+<text x="320" y="456" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#78350F">Type == &#x27;D&#x27;</text>
+<text x="320" y="474" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#78350F">or &#x27;W&#x27;?</text>
+<line x1="320" y1="499" x2="320" y2="543" stroke="#4B5563" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="165" y="547" width="310" height="56" rx="8" fill="#F3F4F6" stroke="#374151" stroke-width="2"/>
+<text x="320" y="571" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#111827">Deposit: add to balance</text>
+<text x="320" y="589" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#111827">Log Accepted</text>
+<line x1="320" y1="606" x2="320" y2="650" stroke="#4B5563" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="320,654 475,690 320,726 165,690" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+<text x="320" y="686" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#78350F">Valid multiple, limit,</text>
+<text x="320" y="704" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#78350F">&amp; min balance?</text>
+<line x1="320" y1="729" x2="320" y2="773" stroke="#4B5563" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="165" y="777" width="310" height="56" rx="8" fill="#F3F4F6" stroke="#374151" stroke-width="2"/>
+<text x="320" y="801" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#111827">Withdraw: deduct balance</text>
+<text x="320" y="819" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#111827">Update daily total</text>
+<line x1="320" y1="836" x2="320" y2="888" stroke="#4B5563" stroke-width="2" marker-end="url(#arrow)"/>
+<polygon points="170,948 450,948 470,892 190,892" fill="#E8F1FA" stroke="#2563EB" stroke-width="2"/>
+<text x="320" y="916" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2937">Reject invalid / Print</text>
+<text x="320" y="934" text-anchor="middle" font-family="Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#1F2937">final transaction summary</text>
+<line x1="320" y1="951" x2="320" y2="1003" stroke="#4B5563" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="200" y="1009" width="240" height="52" rx="26" fill="#1E3A5F"/>
+<text x="320" y="1040" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">Stop</text>
+</svg>

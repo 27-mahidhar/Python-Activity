@@ -1,0 +1,17 @@
+=== PASSWORD POLICY VALIDATION REPORT ===
+
+Password: Campus@2026 -> VALID
+
+Password: abc12 -> INVALID
+  - Minimum length of 8 characters not met
+  - Missing uppercase letter
+  - Missing special character (@#$%&*!)
+
+Password: Admin@1234 -> INVALID
+  - Contains prohibited substring 'admin'
+  - Contains prohibited substring '1234'
+
+Password: Strong###9 -> INVALID
+  - Contains 3+ consecutive repeated characters
+
+Password: NriuCse!26 -> VALID

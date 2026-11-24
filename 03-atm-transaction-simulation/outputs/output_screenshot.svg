@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="498" viewBox="0 0 760 498">
+<rect width="760" height="498" rx="10" fill="#0F172A"/>
+<rect width="760" height="40" rx="10" fill="#1E293B"/>
+<rect y="30" width="760" height="10" fill="#1E293B"/>
+<circle cx="22" cy="20" r="6" fill="#EF4444"/>
+<circle cx="42" cy="20" r="6" fill="#F59E0B"/>
+<circle cx="62" cy="20" r="6" fill="#10B981"/>
+<text x="88" y="25" font-family="Menlo, Monaco, monospace" font-size="13" font-weight="bold" fill="#E2E8F0">Terminal — ATM Transaction Sequence Simulation (atm_simulation.py)</text>
+<text x="24" y="75" font-family="Menlo, Monaco, monospace" font-size="14" fill="#38BDF8" xml:space="preserve">$ python3 atm_simulation.py</text>
+<text x="24" y="97" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve"></text>
+<text x="24" y="119" font-family="Menlo, Monaco, monospace" font-size="14" fill="#FBBF24" xml:space="preserve">=== ATM TRANSACTION SIMULATION LOG ===</text>
+<text x="24" y="141" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Initial Balance: Rs. 10000.00</text>
+<text x="24" y="163" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve"></text>
+<text x="24" y="185" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Txn 1 (D, 2500): ACCEPTED - New Balance: Rs. 12500.00</text>
+<text x="24" y="207" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Txn 2 (W, 3000): ACCEPTED - New Balance: Rs. 9500.00</text>
+<text x="24" y="229" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Txn 3 (W, 5500): REJECTED - Exceeds single limit (Rs. 5000).</text>
+<text x="24" y="251" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Txn 4 (W, 4550): REJECTED - Must be a multiple of Rs. 100.</text>
+<text x="24" y="273" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Txn 5 (W, 4500): ACCEPTED - New Balance: Rs. 5000.00</text>
+<text x="24" y="295" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Txn 6 (W, 1000): REJECTED - Exceeds daily limit (Rs. 8000).</text>
+<text x="24" y="317" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Txn 7 (D, -200): REJECTED - Amount must be positive.</text>
+<text x="24" y="339" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Txn 8 (X, 500): REJECTED - Unknown transaction type.</text>
+<text x="24" y="361" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve"></text>
+<text x="24" y="383" font-family="Menlo, Monaco, monospace" font-size="14" fill="#FBBF24" xml:space="preserve">=== SUMMARY ===</text>
+<text x="24" y="405" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Accepted Transactions: 3</text>
+<text x="24" y="427" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Rejected Transactions: 5</text>
+<text x="24" y="449" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Total Withdrawn Today: Rs. 7500.00</text>
+<text x="24" y="471" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Closing Balance      : Rs. 5000.00</text>
+</svg>

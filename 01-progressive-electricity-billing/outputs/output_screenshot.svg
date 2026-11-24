@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="498" viewBox="0 0 760 498">
+<rect width="760" height="498" rx="10" fill="#0F172A"/>
+<rect width="760" height="40" rx="10" fill="#1E293B"/>
+<rect y="30" width="760" height="10" fill="#1E293B"/>
+<circle cx="22" cy="20" r="6" fill="#EF4444"/>
+<circle cx="42" cy="20" r="6" fill="#F59E0B"/>
+<circle cx="62" cy="20" r="6" fill="#10B981"/>
+<text x="88" y="25" font-family="Menlo, Monaco, monospace" font-size="13" font-weight="bold" fill="#E2E8F0">Terminal — Progressive Electricity Billing (electricity_billing.py)</text>
+<text x="24" y="75" font-family="Menlo, Monaco, monospace" font-size="14" fill="#38BDF8" xml:space="preserve">$ python3 electricity_billing.py</text>
+<text x="24" y="97" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve"></text>
+<text x="24" y="119" font-family="Menlo, Monaco, monospace" font-size="14" fill="#FBBF24" xml:space="preserve">=== PROGRESSIVE ELECTRICITY BILLING REPORT ===</text>
+<text x="24" y="141" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Month      Units   Energy(Rs)   Surcharge    Rebate   Total(Rs)</text>
+<text x="24" y="163" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">---------------------------------------------------------------</text>
+<text x="24" y="185" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Jan           95       285.00        0.00     50.00      310.00</text>
+<text x="24" y="207" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Feb          150       525.00        0.00      0.00      600.00</text>
+<text x="24" y="229" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Mar          280      1230.00        0.00      0.00     1305.00</text>
+<text x="24" y="251" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Apr          420      2100.00      105.00      0.00     2280.00</text>
+<text x="24" y="273" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">May          390      1890.00       94.50      0.00     2059.50</text>
+<text x="24" y="295" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Jun          180       660.00        0.00      0.00      735.00</text>
+<text x="24" y="317" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">---------------------------------------------------------------</text>
+<text x="24" y="339" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Total 6-Month Bill  : Rs. 7289.50</text>
+<text x="24" y="361" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Average Monthly Bill: Rs. 1214.92</text>
+<text x="24" y="383" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve"></text>
+<text x="24" y="405" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">Unusual Bill Increases (&gt;40% vs previous month):</text>
+<text x="24" y="427" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">  - Feb increased by 93.5% compared to Jan</text>
+<text x="24" y="449" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">  - Mar increased by 117.5% compared to Feb</text>
+<text x="24" y="471" font-family="Menlo, Monaco, monospace" font-size="14" fill="#E2E8F0" xml:space="preserve">  - Apr increased by 74.7% compared to Mar</text>
+</svg>

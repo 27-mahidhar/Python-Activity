@@ -1,0 +1,17 @@
+=== PROGRESSIVE ELECTRICITY BILLING REPORT ===
+Month      Units   Energy(Rs)   Surcharge    Rebate   Total(Rs)
+---------------------------------------------------------------
+Jan           95       285.00        0.00     50.00      310.00
+Feb          150       525.00        0.00      0.00      600.00
+Mar          280      1230.00        0.00      0.00     1305.00
+Apr          420      2100.00      105.00      0.00     2280.00
+May          390      1890.00       94.50      0.00     2059.50
+Jun          180       660.00        0.00      0.00      735.00
+---------------------------------------------------------------
+Total 6-Month Bill  : Rs. 7289.50
+Average Monthly Bill: Rs. 1214.92
+
+Unusual Bill Increases (>40% vs previous month):
+  - Feb increased by 93.5% compared to Jan
+  - Mar increased by 117.5% compared to Feb
+  - Apr increased by 74.7% compared to Mar

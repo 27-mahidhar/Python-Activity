@@ -1,0 +1,14 @@
+=== LIBRARY BORROWING & FINE RECONCILIATION ===
+ID     Book Title         Allowed  Held  Overdue  Fine(Rs)  Status
+------------------------------------------------------------------------
+B101   Python Basics           14    12        0      0.00  Returned
+B102   Data Structures         14    21        7     45.00  Returned
+B103   Discrete Math           14    18        4     20.00  Pending Return
+B104   Digital Logic            7     7        0      0.00  Returned
+B105   C Programming           14    25       11     85.00  Pending Return
+------------------------------------------------------------------------
+Total Books Tracked : 5
+Available in Library: 3
+Currently Issued Out: 2
+Overdue Records     : 3
+Total Fines Assessed: Rs. 150.00

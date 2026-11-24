@@ -1,0 +1,27 @@
+=== HOLLOW NUMERIC DIAMOND PATTERN GENERATOR ===
+
+Input Dimension: n = 1
+Error: Dimension must be an integer between 2 and 9 for proper alignment.
+
+Input Dimension: n = 12
+Error: Dimension must be an integer between 2 and 9 for proper alignment.
+
+Input Dimension: n = 4
+   1
+  2 2
+ 3   3
+4     4
+ 3   3
+  2 2
+   1
+
+Input Dimension: n = 5
+    1
+   2 2
+  3   3
+ 4     4
+5       5
+ 4     4
+  3   3
+   2 2
+    1
